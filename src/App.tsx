@@ -12,7 +12,7 @@ const web3Onboard = init({
       id: '0x1', // Ethereum Mainnet
       token: 'ETH',
       label: 'Ethereum Mainnet',
-      rpcUrl: `https://mainnet.infura.io/v3/${process.env.ec38c2436cc4423bba47304d67d1990d}`
+      rpcUrl: `https://mainnet.infura.io/v3/${process.env.REACT_APP_INFURA_KEY}`
     },
     {
       id: '0x89', // Polygon Mainnet
